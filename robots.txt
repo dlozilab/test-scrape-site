@@ -4,4 +4,4 @@ User-agent: *
 Disallow:
 
 # Sitemap location (good practice to include)
-Sitemap: https://your-render-url.onrender.com/sitemap.xml
+Sitemap: https://test-scrape-site.onrender.com/sitemap.xml
