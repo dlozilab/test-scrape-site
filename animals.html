@@ -3,21 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <title>Animals</title>
-    <link rel="stylesheet" href="style.css"> </head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .animal-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+            margin-top: 20px;
+        }
+        .animal-card {
+            border: 1px solid #ccc;
+            padding: 1rem;
+            border-radius: 10px;
+            background: #f9f9f9;
+        }
+        .animal-card h2 {
+            margin-top: 0;
+        }
+        .animal-card p {
+            margin: 0.3rem 0;
+        }
+    </style>
+</head>
 <body>
     <h1>Interesting Animals 🦁</h1>
     <div class="animal-list">
         <div class="animal-card" id="animal-1">
             <h2>Lion</h2>
-            <p>A lion's roar can be heard from 8 kilometers away.</p>
+            <p class="fact">A lion's roar can be heard from 8 kilometers away.</p>
+            <p class="habitat">Habitat: Grasslands, savannas</p>
+            <p class="lifespan">Lifespan: 10-14 years</p>
+            <p class="diet">Diet: Carnivore</p>
         </div>
         <div class="animal-card" id="animal-2">
             <h2>Octopus</h2>
-            <p>An octopus has three hearts.</p>
+            <p class="fact">An octopus has three hearts.</p>
+            <p class="habitat">Habitat: Oceans, coral reefs</p>
+            <p class="lifespan">Lifespan: 1-2 years</p>
+            <p class="diet">Diet: Carnivore</p>
         </div>
         <div class="animal-card" id="animal-3">
             <h2>Elephant</h2>
-            <p>Elephants can recognize themselves in a mirror.</p>
+            <p class="fact">Elephants can recognize themselves in a mirror.</p>
+            <p class="habitat">Habitat: Forests, savannas</p>
+            <p class="lifespan">Lifespan: 60-70 years</p>
+            <p class="diet">Diet: Herbivore</p>
+        </div>
+        <div class="animal-card" id="animal-4">
+            <h2>Penguin</h2>
+            <p class="fact">Penguins can stay underwater for up to 27 minutes.</p>
+            <p class="habitat">Habitat: Antarctic coasts</p>
+            <p class="lifespan">Lifespan: 15-20 years</p>
+            <p class="diet">Diet: Carnivore</p>
+        </div>
+        <div class="animal-card" id="animal-5">
+            <h2>Giraffe</h2>
+            <p class="fact">Giraffes have the same number of neck bones as humans.</p>
+            <p class="habitat">Habitat: African savannas</p>
+            <p class="lifespan">Lifespan: 25 years</p>
+            <p class="diet">Diet: Herbivore</p>
+        </div>
+        <div class="animal-card" id="animal-6">
+            <h2>Kangaroo</h2>
+            <p class="fact">Kangaroos can leap up to 3 meters high.</p>
+            <p class="habitat">Habitat: Australian bushland</p>
+            <p class="lifespan">Lifespan: 20 years</p>
+            <p class="diet">Diet: Herbivore</p>
+        </div>
+        <div class="animal-card" id="animal-7">
+            <h2>Sloth</h2>
+            <p class="fact">Sloths can hold their breath for up to 40 minutes.</p>
+            <p class="habitat">Habitat: Central and South American rainforests</p>
+            <p class="lifespan">Lifespan: 20-30 years</p>
+            <p class="diet">Diet: Herbivore</p>
+        </div>
+        <div class="animal-card" id="animal-8">
+            <h2>Cheetah</h2>
+            <p class="fact">Cheetahs are the fastest land animals, reaching 112 km/h.</p>
+            <p class="habitat">Habitat: African savannas</p>
+            <p class="lifespan">Lifespan: 10-12 years</p>
+            <p class="diet">Diet: Carnivore</p>
+        </div>
+        <div class="animal-card" id="animal-9">
+            <h2>Polar Bear</h2>
+            <p class="fact">Polar bears have black skin under their white fur.</p>
+            <p class="habitat">Habitat: Arctic regions</p>
+            <p class="lifespan">Lifespan: 25-30 years</p>
+            <p class="diet">Diet: Carnivore</p>
+        </div>
+        <div class="animal-card" id="animal-10">
+            <h2>Chimpanzee</h2>
+            <p class="fact">Chimpanzees can use tools and solve problems.</p>
+            <p class="habitat">Habitat: African forests</p>
+            <p class="lifespan">Lifespan: 40-50 years</p>
+            <p class="diet">Diet: Omnivore</p>
         </div>
     </div>
 </body>
